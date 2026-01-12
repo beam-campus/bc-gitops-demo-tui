@@ -1,17 +1,32 @@
-.eunit
-*.o
+# rebar3
+_build/
+_checkouts/
+.rebar3/
+rebar.lock
+
+# Erlang
 *.beam
 *.plt
 erl_crash.dump
-.concrete/DEV_MODE
-
-# rebar 2.x
-.rebar
-rel/example_project
+*.ez
 ebin/*.beam
-deps
+.eunit
 
-# rebar 3
-.rebar3
-_build/
-_checkouts/
+# Legacy rebar
+.rebar
+deps/
+
+# Rust
+rust/target/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep priv binaries (they're checked in)
+!priv/

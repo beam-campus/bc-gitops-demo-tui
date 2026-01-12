@@ -1,0 +1,20 @@
+{application, demo_tui, [
+    {description, "TUI wrapper for bc_gitops demo - launches Rust TUI from priv/"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {mod, {demo_tui_app, []}},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {env, [
+        {counter_url, "http://localhost:8080"},
+        {auto_start, false}
+    ]},
+    {modules, []},
+    {licenses, ["MIT"]},
+    {links, [
+        {"GitHub", "https://github.com/beam-campus/bc-gitops-demo-tui"},
+        {"bc_gitops", "https://github.com/beam-campus/bc-gitops"}
+    ]}
+]}.
