@@ -1,6 +1,6 @@
 {application, demo_tui, [
     {description, "TUI wrapper for bc_gitops demo - launches Rust TUI from priv/"},
-    {vsn, "0.1.0"},
+    {vsn, "0.1.1"},
     {registered, []},
     {mod, {demo_tui_app, []}},
     {applications, [
