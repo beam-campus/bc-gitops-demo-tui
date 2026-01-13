@@ -1,4 +1,5 @@
 # bc-gitops-demo-tui
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-yellow.svg)](https://buymeacoffee.com/beamologist)
 
 Rust TUI + Erlang OTP wrapper for [bc_gitops](https://github.com/beam-campus/bc-gitops) demonstration.
 
